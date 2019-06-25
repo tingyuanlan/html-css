@@ -1,0 +1,343 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol,li{
+	list-style:none;
+}
+b,strong{
+	font-weight: normal;
+}
+i,em{
+	font-style:normal;
+}
+a,u{
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:16px;
+	font-weight:normal;
+}
+/*topWrap*/
+#topWrap,#nav,#banner,#content1,#fit,#camera,#footer{
+    width:790px;
+	margin:0 auto;
+}
+#topWrap{
+	height:83px;
+}
+.img1{
+	display:block;
+}
+#topWrap h1{
+	width:326px;
+	height:54px;
+	float:left;
+}
+#topWrap h1 img{
+    padding:3px 0px 5px 243px;
+}
+#topWrap p{
+	float:left;
+    font:28px "华文行楷";
+    color:#694d26;
+    padding:12px 30px;
+}
+.img2{
+	padding:54px 0px 0px 0px;
+}
+/*nav*/
+#nav{
+	height:32px;
+	background:url(../images/libg_03.jpg);
+}
+#nav li{
+	float:left;
+	height:32px;
+	line-height:32px;
+	background:url(../images/bd_03.jpg) no-repeat right center;
+	font-size:10px;
+	padding:0px 30px;
+}
+#nav li a{
+	color:#fcdfb3;
+}
+#nav .last{
+	background:none;
+}
+#nav .first{margin-left:62px;}
+/*banner*/
+#banner{
+	height:231px;
+}
+#banner img{
+	width:790px;
+}
+/*content1*/
+#content1{
+    height:159px;
+    border-bottom:2px solid #c2ad90;
+}
+.cont-l{
+	width:275px;
+	height:159px;
+	float:left;
+}
+.cont-l img{
+	padding-top:11px;
+}
+.cont-c{
+	width:242px;
+	height:159px;
+	float:left;
+}
+.bd1{
+	padding-top:11px;
+}
+
+.hand,.hand2,.top,.active{
+	width:244px;
+    height:25px;
+    background:#ae6806;
+    border-radius: 5px;
+}
+.hand h2,.hand2 h2,.top h2,.active h2{
+    float:left;
+    font-size:8px;
+    color:white;
+}
+
+.hand a,.hand2 a,.top a,.active a{
+	display:block;
+	width:56px;
+	height:18px;
+	background:#643406;
+	border-radius: 5px;
+	font-size:1px;
+	color:white;
+	float:left;
+	line-height:18px;
+	text-align: center;
+}
+.hand h2{
+	 padding:5px 0px 0px 26px;
+}
+.hand a{
+	margin:5px 0 0 100px;
+}
+.cont-c li a,.fit_center a{
+	font-size:5px;
+	color:black;
+	float:left;
+}
+.cont-c span,.fit_center span{
+	font-size:5px;
+	color:#cdcdcd;
+	float:right;
+}
+.cont-r{
+	width:272px;
+	height:159px;
+	float:left;
+}
+.bd2{
+	padding:11px 0 0 23px;
+}
+/*.hand2{
+	width:244px;
+    height:25px;
+    background:#ae6806;
+    border-radius: 5px;
+}*/
+.hand2 h2{
+    padding:5px 0px 0px 26px;
+}
+.hand2 a{
+	margin:5px 0 0 100px;
+}
+.bd2 img{
+	display:inline;
+	float:left;
+	padding-top:7px;
+}
+.bd2 p{
+	padding-top:7px;
+	font-size:8px;
+	color:black;
+}
+/*content2*/
+/*周边配套*/
+#fit{
+	height:157px;
+	margin-top:11px;
+	border-bottom:2px solid #c2ad90;;
+}
+.fit_left{
+	width:378px;
+	height:157px;
+	float:left;
+}
+.top{
+	width:378px;
+} 
+.top h2{
+    padding:5px 0 0 28px;
+}
+.top a{
+	margin:5px 0 0 230px;
+}
+.house1,.house2,.house3,.house4{
+	width:164px;
+	height:47px;
+	float:left;
+}
+.house1,.house2{
+	margin-top:5px;
+}
+.house3,.house4{
+    margin-top:7px;	
+}
+.house1,.house3{
+	margin-left:4px;
+}
+.house2,.house4{
+	margin-left:28px;
+}
+.house1 img,.house2 img,.house3 img,.house4 img{
+	float:left;
+}
+.house1 h3,.house2 h3,.house3 h3,.house4 h3{
+	font-size:8px;
+	color:#555;
+	float:left;
+}
+
+.house1 a,.house2 a,.house3 a,.house4 a{
+	font-size:6px;
+	color:red;
+}
+.house2{
+	float:left;
+}
+.house3{
+	margin-top:7px;
+}
+
+.fit_center{
+	width:242px;
+	height:157px;
+	float:left;
+	margin-left:22px;
+}
+/*活动资讯*/
+.active{
+	width:244px;
+}
+.active h2{
+    padding:5px 0px 0px 26px;
+}
+.active a{
+	margin:5px 0 0 100px;
+	color:white;
+}
+/*预约看房*/
+.fit_right{
+	width:121px;
+	height:132px;
+	float:left;
+	margin-left:25px;
+	border:1px dashed #ddd;
+}
+.fit_right h2{
+	font-size:10px;
+	color:red;
+}
+.booking{
+	font-size:5px;
+	color:#6d8883;
+}
+.fit_right img{
+	text-align:center;
+	padding:9px 0 0 19px;
+}
+.fit_right a{
+	display:block;
+	width:92px;
+	height:20px;
+	background:#f2861a;
+	border:1px solid #e06905;
+	margin:-4px 0 0 12px;
+	font-size:8px;
+	color:white;
+	line-height:20px;
+	text-align:center;
+}
+.phone{
+	float:left;
+}
+.num{
+	font-size:8px;
+	color:#474749;
+}
+/*楼盘相册*/
+#camera{
+   height:124px;
+   margin-top:14px;
+}
+#camera h2{
+	font-size:11px;
+	font-weight:bold;
+	color:#6a5e48;
+	padding-bottom:10px;
+}
+.bg{
+	height:106px;
+	background:#f1edec;
+}
+.pic1,.pic2,.pic3,.pic4{
+	float:left;
+}
+.pic1{
+	width:132px;
+	height:85px;
+	padding:10px 0 0 14px;
+}
+.pic2,.pic3,.pic4,.pic5{
+	width:141px;
+	height:85px;
+	padding:10px 0 0 14px;
+}
+/*footer*/
+#footer{
+	height:52px;
+	background:#7b4c20;
+}
+.footer_l{
+	width:67px;
+	height:52px;
+	float:left;
+}
+.footer_l img{
+	width:32px;
+	height:30px;
+    margin:5px 0 0 27px;
+}
+.footer_l p{
+	font-size:0.5px;
+	color:white;
+	padding-left:25px;
+}
+.footer_r{
+	width:510px;
+	height:52px;
+	float:left;
+	margin-left:27px;
+}
+.footer_r p{
+	font-size:7px;
+	color:white;
+	line-height:18px;
+}
+
+
